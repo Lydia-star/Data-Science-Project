@@ -9,4 +9,5 @@ The following is a description of the files on GitHub.
 2. The "human_face_image_processing" folder contains images related to human faces that require processing, along with the code for image processing and the resulting processed images.
 3. "Image Processing Automation Tools" is a Python code developed using PyCharm to create an automated image processing tool. This tool enables users to input desired operations, and the tool automatically applies corresponding operations to the images requiring processing. Note: These operations are essentially predefined test cases. The tool is capable of performing individual operations, such as rotating an image. It can also execute composite test operations, for instance, simultaneously applying translation and mosaic operations to an image.
 
+<img width="485" alt="image" src="https://github.com/Lydia-star/Data-Science-Project/assets/114503679/1a5009d4-31d1-4bfa-a3bf-a2c1153aef3f">
 
