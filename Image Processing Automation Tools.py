@@ -435,26 +435,6 @@ def main():
     operations = []
     # Start the operation selection loop
     while True:
-        print("Select one or more image processing operations:")
-        print("1. Hue")
-        print("2. Brightless")
-        print("3. Saturation")
-        print("4. Add noise")
-        print("5. Contrast")
-        print("6. Mosaic")
-        print("7. Blur")
-        print("8. Translation")
-        print("9. Shearing")
-        print("10. Cropping")
-        print("11. Rotation")
-        print("12. Scaling")
-        print("13. Flipping")
-        print("14. Cutout")
-        print("15. Image splicing")
-        print("16. Occlusion")
-        print("17. Cutmix")
-        print("18. Mixup")
-        print("Type 'done' to finish.")
         # Input the operation chosen by the user
         operation = input("Enter the number of the operation (or 'done' to finish): ")
         # If the user enters 'done', exit the loop
@@ -474,6 +454,26 @@ def main():
     # Print a completion message
     print(f"Images processed and saved in {output_folder}")
 
+print("Select one or more image processing operations:")
+print("1. Hue")
+print("2. Brightness")
+print("3. Saturation")
+print("4. Add noise")
+print("5. Contrast")
+print("6. Mosaic")
+print("7. Blur")
+print("8. Translation")
+print("9. Shearing")
+print("10. Cropping")
+print("11. Rotation")
+print("12. Scaling")
+print("13. Flipping")
+print("14. Cutout")
+print("15. Image splicing")
+print("16. Occlusion")
+print("17. Cutmix")
+print("18. Mixup")
+print("Type 'done' to finish.")
 # Make sure the main function is only executed when the script is run directly
 if __name__ == "__main__":
     main()
